@@ -26,6 +26,11 @@ body {
 .nav-link {
     font-weight: 500;
     font-size: 1.125rem;
+    color: #5A6772;
+}
+
+.nav-link.active {
+    color: var(--primary-color);
 }
 
 .btn-custom {
